@@ -245,7 +245,7 @@ export default function ClinicLandingMockup() {
           <a href="/">
             <img 
               src="/logo-horizontal.png" 
-              alt="Clinic Web Design" 
+              alt="Clinic Web Design logo" 
               className="h-10 w-auto"
             />
           </a>
@@ -318,7 +318,7 @@ export default function ClinicLandingMockup() {
               <div className="relative mx-auto w-full max-w-[680px] h-full">
                 <img
                   src="/ClinicWebsiteAgency-Hero-laptop.png"
-                  alt="Doctor holding a laptop"
+                  alt="Modern clinic website design example"
                   className="h-full w-full rounded-[28px] object-cover"
                 />
               </div>
@@ -918,7 +918,7 @@ export default function ClinicLandingMockup() {
                 <a href="/">
                   <img 
                     src="/logo-horizontal.png" 
-                    alt="Clinic Web Design" 
+                    alt="Clinic Web Design Logo" 
                     className="h-10 w-auto"
                   />
                 </a>
