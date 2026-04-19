@@ -242,9 +242,13 @@ export default function ClinicLandingMockup() {
     <div className="min-h-screen bg-white text-[#111111]">
       <header className="sticky top-0 z-30 border-b border-[#E5E7EB]/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2563EB]">
-            clinicwebdesign
-          </p>
+          <a href="/">
+            <img 
+              src="/logo-horizontal.png" 
+              alt="Clinic Web Design" 
+              className="h-10 w-auto"
+            />
+          </a>
           <a
             href="#cta"
             className="rounded-xl bg-[#2563EB] px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#1D4ED8]"
@@ -911,10 +915,14 @@ export default function ClinicLandingMockup() {
           <div className="mx-auto max-w-7xl px-6 py-12 lg:px-10">
             <div className="grid gap-8 md:grid-cols-3">
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#2563EB]">
-                  clinicwebdesign
-                </p>
-                <p className="mt-2 text-sm text-[#6B7280]">
+                <a href="/">
+                  <img 
+                    src="/logo-horizontal.png" 
+                    alt="Clinic Web Design" 
+                    className="h-10 w-auto"
+                  />
+                </a>
+                <p className="mt-4 text-sm text-[#6B7280]">
                   Building high-converting websites for clinics.
                 </p>
               </div>
@@ -930,8 +938,9 @@ export default function ClinicLandingMockup() {
 
               <div>
                 <p className="text-sm font-semibold text-[#111111] mb-3">Contact</p>
-                <p className="text-sm text-[#6B7280] mb-1">your-email@example.com</p>
-                <p className="text-sm text-[#6B7280]">your-phone@example.com</p>
+                <a href="mailto:hello@clinicwebdesign.studio">
+                  <p className="text-sm text-[#6B7280] mb-1">hello@clinicwebdesign.studio</p>
+                </a>
               </div>
             </div>
 
