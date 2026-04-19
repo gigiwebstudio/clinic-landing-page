@@ -15,9 +15,6 @@ import {
 
 const smoothEase = [0.22, 1, 0.36, 1] as const;
 
-const heroPhoto =
-  "/ClinicWebsiteAgency-Hero.png";
-
 const heroReveal = {
   hidden: { opacity: 0, y: 40, filter: "blur(10px)" },
   visible: {
