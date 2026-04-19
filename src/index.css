@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: auto;
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Snappy button hover effects */
+a[href*="#"],
+button {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+              background-color 0.2s ease,
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+  will-change: transform;
+}
+
+a[href*="#"]:hover,
+button:hover {
+  transform: translate(0, -1px) scale(1.01);
+}
+
+a[href*="#"]:active,
+button:active {
+  transform: scale(0.99);
+}
